@@ -1,3 +1,9 @@
+libmaxminddb (1.5.2-1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Wed, 29 Jun 2022 14:15:35 +0100
+
 libmaxminddb (1.5.2-1) unstable; urgency=medium
 
   * New upstream release.
