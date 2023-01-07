@@ -1,9 +1,46 @@
+## 1.7.1 - 2022-09-30
+
+* The external symbols test now only runs on Linux. It assumes a Linux
+  environment. Reported by Carlo Cabrera. GitHub #304.
+
+## 1.7.0 - 2022-09-28
+
+* `FD_CLOEXEC` is now set on platforms that do not support `O_CLOEXEC`.
+  Reported by rittneje. GitHub #273.
+* When building with Visual Studio, you may now build a static runtime with
+  CMake by setting `MSVC_STATIC_RUNTIME` to `ON`. Pull request by Rafael
+  Santiago. GitHub #269.
+* The CMake build now works on iOS. Pull request by SpaceIm. GitHub #271.
+* The CMake build now uses the correct library directory on Linux systems
+  using alternate directory structures. Pull request by Satadru Pramanik.
+  GitHub #284.
+* File size check now correctly compares the size to `SSIZE_MAX`. Reported
+  by marakew. GitHub #301.
+
+## 1.6.0 - 2021-04-29
+
+* This release includes several improvements to the CMake build. In
+  particular:
+  * C99 support is now properly enabled, fixing builds on older `gcc`
+    versions. Pull request by Jan Včelák. GitHub #257.
+  * `CMAKE_SHARED_LIBRARY_PREFIX` and `CMAKE_STATIC_LIBRARY_PREFIX` are
+    no longer explicitly set and now use the default values for the platform.
+    Pull request by Jan Včelák. GitHub #258.
+  * `target_include_directories` now works as expected. Pull request by Jan
+    Včelák. GitHub #259.
+  * DLLs are now installed on Windows when `libmaxminddb` is built as a
+    shared library. Pull request by Jan Včelák. GitHub #261.
+  * When built as a dynamic library on Windows, all symbols are now exported.
+    Pull request by Jan Včelák. GitHub #262.
+
+
 ## 1.5.2 - 2021-02-18
 
 * With `libmaxminddb` on Windows and `mmdblookup` generally, there were
   instances where the return value of `calloc` was not checked, which could
   lead to issues in low memory situations or when resource limits had been
   set. Reported by cve-reporting. GitHub #252.
+
 
 ## 1.5.1 - 2021-02-18
 
