@@ -1,3 +1,12 @@
+libmaxminddb (1.7.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Switch debian/watch to the GitHub API, as the old scraping method did not
+    work anymore.
+  * Bump Standards-Version to 4.6.1, no changes needed.
+
+ -- Faidon Liambotis <paravoid@debian.org>  Sat, 07 Jan 2023 02:28:38 +0200
+
 libmaxminddb (1.5.2-1pexip3) pexip-bullseye; urgency=medium
 
   * Bullseye rebuild for ARM64 inclusion

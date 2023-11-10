@@ -3,7 +3,7 @@ Upstream-Name: libmaxminddb
 Source: https://maxmind.github.io/libmaxminddb/
 
 Files: *
-Copyright: 2013-2014 MaxMind, Inc.
+Copyright: 2013-2022 MaxMind, Inc.
 License: Apache-2.0
 
 Files: t/maxmind-db/*
@@ -15,7 +15,7 @@ Copyright: 2012 Jake Gelbman <gelbman@gmail.com>
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2014-2021 Faidon Liambotis <paravoid@debian.org>
+Copyright: 2014-2023 Faidon Liambotis <paravoid@debian.org>
 License: Apache-2.0
 
 License: Apache-2.0
