@@ -403,6 +403,14 @@
       }
    },
    {
+      "::23.32.32.1/128" : {
+         "autonomous_system_number" : 262589,
+         "autonomous_system_organization" : "INTERNEXA Brasil Operadora de Telecomunicações S.A",
+         "isp" : "INTERNEXA Brasil Operadora de Telecomunicações S.A",
+         "organization" : "INTERNEXA Brasil Operadora de Telecomunicações S.A"
+      }
+   },
+   {
       "::23.192.0.0/107" : {
          "autonomous_system_number" : 35994,
          "autonomous_system_organization" : "Akamai Technologies, Inc.",
@@ -8762,6 +8770,16 @@
       }
    },
    {
+      "::149.101.100.0/124" : {
+         "autonomous_system_number" : 6167,
+         "autonomous_system_organization" : "CELLCO-PART",
+         "isp" : "Verizon Wireless",
+         "mobile_country_code" : "310",
+         "mobile_network_code" : "004",
+         "organization" : "Verizon Wireless"
+      }
+   },
+   {
       "::154.50.194.0/119" : {
          "organization" : "Wireless Connect Ltd."
       }
@@ -12579,7 +12597,9 @@
    {
       "2c0f:ff80::/25" : {
          "autonomous_system_number" : 237,
-         "autonomous_system_organization" : "Merit Network Inc."
+         "autonomous_system_organization" : "Merit Network Inc.",
+         "isp" : "Merit Network Inc.",
+         "organization" : "Merit Network Inc."
       }
    }
 ]

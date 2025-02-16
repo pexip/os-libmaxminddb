@@ -1,3 +1,46 @@
+libmaxminddb (1.12.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove Build-Depends on libipc-system-simple-perl, removed upstream.
+  * Remove Sergio Durigan Junior from Uploaders, no activity since 2020.
+
+ -- Faidon Liambotis <paravoid@debian.org>  Sun, 16 Feb 2025 13:31:14 +0200
+
+libmaxminddb (1.11.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update copyright:
+    - MaxMind-DB test data are now dual-licensed under Apache-2.0 and Expat
+      (MIT) instead of CC-BY-SA-3.0.
+    - libtap is now licensed under the LGPL-3.0+ instead of GPL-2+.
+    - Remove erroneous references to the BSD-4-clause license for
+      maxminddb-compat-util.h.
+  * Remove Breaks/Depends for << 1.4.3-2 (pre-bullseye).
+
+ -- Faidon Liambotis <paravoid@debian.org>  Thu, 29 Aug 2024 11:54:44 +0300
+
+libmaxminddb (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.7.0, no changes needed.
+  * Add a couple of blhc exceptions, for (safe to ignore) test suite files.
+
+ -- Faidon Liambotis <paravoid@debian.org>  Tue, 13 Aug 2024 16:17:29 +0300
+
+libmaxminddb (1.9.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Faidon Liambotis <paravoid@debian.org>  Thu, 11 Jan 2024 17:29:44 +0200
+
+libmaxminddb (1.8.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.2, no changes needed.
+  * Switch URLs in the extended description to https.
+
+ -- Faidon Liambotis <paravoid@debian.org>  Mon, 13 Nov 2023 06:59:13 +0200
+
 libmaxminddb (1.7.1-1) unstable; urgency=medium
 
   * New upstream release.

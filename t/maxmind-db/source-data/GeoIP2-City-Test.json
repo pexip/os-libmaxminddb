@@ -31,8 +31,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -83,8 +83,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "37",
-            "longitude" : "127.5",
+            "latitude" : 37,
+            "longitude" : 127.5,
             "time_zone" : "Asia/Seoul"
          },
          "registered_country" : {
@@ -101,6 +101,160 @@
                "zh-CN" : "韩国"
             }
          }
+      }
+   },
+   {
+      "::214.0.0.0/120" : {
+         "city" : {
+            "geoname_id" : 1880252,
+            "names" : {
+               "de" : "Singapur",
+               "en" : "Singapore",
+               "es" : "Singapur",
+               "fr" : "Singapour",
+               "ja" : "シンガポール",
+               "pt-BR" : "Singapura",
+               "ru" : "Сингапур",
+               "zh-CN" : "新加坡"
+            }
+         },
+         "continent" : {
+            "code" : "AS",
+            "geoname_id" : 6255147,
+            "names" : {
+               "de" : "Asien",
+               "en" : "Asia",
+               "es" : "Asia",
+               "fr" : "Asie",
+               "ja" : "アジア",
+               "pt-BR" : "Ásia",
+               "ru" : "Азия",
+               "zh-CN" : "亚洲"
+            }
+         },
+         "country" : {
+            "geoname_id" : 1880251,
+            "iso_code" : "SG",
+            "names" : {
+               "de" : "Singapur",
+               "en" : "Singapore",
+               "es" : "Singapur",
+               "fr" : "Singapour",
+               "ja" : "シンガポール",
+               "pt-BR" : "Singapura",
+               "ru" : "Сингапур",
+               "zh-CN" : "新加坡"
+            }
+         },
+         "location" : {
+            "accuracy_radius" : 10,
+            "latitude" : 1.336,
+            "longitude" : 103.7716,
+            "time_zone" : "Asia/Singapore"
+         },
+         "postal" : {
+            "code" : "59"
+         },
+         "registered_country" : {
+            "geoname_id" : 1880251,
+            "iso_code" : "SG",
+            "names" : {
+               "de" : "Singapur",
+               "en" : "Singapore",
+               "es" : "Singapur",
+               "fr" : "Singapour",
+               "ja" : "シンガポール",
+               "pt-BR" : "Singapura",
+               "ru" : "Сингапур",
+               "zh-CN" : "新加坡"
+            }
+         }
+      }
+   },
+   {
+      "::214.0.1.0/120" : {
+         "city" : {
+            "geoname_id" : 2158177,
+            "names" : {
+               "de" : "Melbourne",
+               "en" : "Melbourne",
+               "es" : "Melbourne",
+               "fr" : "Melbourne",
+               "ja" : "メルボルン",
+               "pt-BR" : "Melbourne",
+               "ru" : "Мельбурн",
+               "zh-CN" : "墨尔本"
+            }
+         },
+         "continent" : {
+            "code" : "OC",
+            "geoname_id" : 6255151,
+            "names" : {
+               "de" : "Ozeanien",
+               "en" : "Oceania",
+               "es" : "Oceanía",
+               "fr" : "Océanie",
+               "ja" : "オセアニア",
+               "pt-BR" : "Oceania",
+               "ru" : "Океания",
+               "zh-CN" : "大洋洲"
+            }
+         },
+         "country" : {
+            "geoname_id" : 2077456,
+            "iso_code" : "AU",
+            "names" : {
+               "de" : "Australien",
+               "en" : "Australia",
+               "es" : "Australia",
+               "fr" : "Australie",
+               "ja" : "オーストラリア",
+               "pt-BR" : "Austrália",
+               "ru" : "Австралия",
+               "zh-CN" : "澳大利亚"
+            }
+         },
+         "location" : {
+            "accuracy_radius" : 20,
+            "latitude" : -37.8159,
+            "longitude" : 144.9669,
+            "time_zone" : "Australia/Melbourne"
+         },
+         "postal" : {
+            "code" : "3000"
+         },
+         "registered_country" : {
+            "geoname_id" : 2077456,
+            "iso_code" : "AU",
+            "names" : {
+               "de" : "Australien",
+               "en" : "Australia",
+               "es" : "Australia",
+               "fr" : "Australie",
+               "ja" : "オーストラリア",
+               "pt-BR" : "Austrália",
+               "ru" : "Австралия",
+               "zh-CN" : "澳大利亚"
+            }
+         },
+         "subdivisions" : [
+            {
+               "geoname_id" : 2145234,
+               "iso_code" : "VIC",
+               "names" : {
+                  "en" : "Victoria",
+                  "pt-BR" : "Vitória",
+                  "ru" : "Виктория"
+               }
+            }
+         ]
+      }
+   },
+   {
+      "214.1.1.0/24" : {
+          "traits": {
+              "is_anycast": true
+          }
       }
    },
    {
@@ -135,8 +289,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "37",
-            "longitude" : "127.5",
+            "latitude" : 37,
+            "longitude" : 127.5,
             "time_zone" : "Asia/Seoul"
          },
          "registered_country" : {
@@ -187,8 +341,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "24",
-            "longitude" : "121",
+            "latitude" : 24,
+            "longitude" : 121,
             "time_zone" : "Asia/Taipei"
          },
          "registered_country" : {
@@ -239,8 +393,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -291,8 +445,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35",
-            "longitude" : "105"
+            "latitude" : 35,
+            "longitude" : 105
          },
          "registered_country" : {
             "geoname_id" : 1814991,
@@ -342,8 +496,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35",
-            "longitude" : "105"
+            "latitude" : 35,
+            "longitude" : 105
          },
          "registered_country" : {
             "geoname_id" : 1814991,
@@ -393,8 +547,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35",
-            "longitude" : "105"
+            "latitude" : 35,
+            "longitude" : 105
          },
          "registered_country" : {
             "geoname_id" : 1814991,
@@ -444,8 +598,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35",
-            "longitude" : "105"
+            "latitude" : 35,
+            "longitude" : 105
          },
          "registered_country" : {
             "geoname_id" : 1814991,
@@ -495,8 +649,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -547,8 +701,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -599,8 +753,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -651,8 +805,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "37",
-            "longitude" : "127.5",
+            "latitude" : 37,
+            "longitude" : 127.5,
             "time_zone" : "Asia/Seoul"
          },
          "registered_country" : {
@@ -703,8 +857,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -755,8 +909,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "37",
-            "longitude" : "127.5",
+            "latitude" : 37,
+            "longitude" : 127.5,
             "time_zone" : "Asia/Seoul"
          },
          "registered_country" : {
@@ -807,8 +961,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "24",
-            "longitude" : "121",
+            "latitude" : 24,
+            "longitude" : 121,
             "time_zone" : "Asia/Taipei"
          },
          "registered_country" : {
@@ -859,8 +1013,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "37",
-            "longitude" : "127.5",
+            "latitude" : 37,
+            "longitude" : 127.5,
             "time_zone" : "Asia/Seoul"
          },
          "registered_country" : {
@@ -911,8 +1065,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -963,8 +1117,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -1015,8 +1169,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -1067,8 +1221,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "37",
-            "longitude" : "127.5",
+            "latitude" : 37,
+            "longitude" : 127.5,
             "time_zone" : "Asia/Seoul"
          },
          "registered_country" : {
@@ -1119,8 +1273,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "37",
-            "longitude" : "127.5",
+            "latitude" : 37,
+            "longitude" : 127.5,
             "time_zone" : "Asia/Seoul"
          },
          "registered_country" : {
@@ -1171,8 +1325,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -1223,8 +1377,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -1275,8 +1429,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "37",
-            "longitude" : "127.5",
+            "latitude" : 37,
+            "longitude" : 127.5,
             "time_zone" : "Asia/Seoul"
          },
          "registered_country" : {
@@ -1327,8 +1481,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "22.25",
-            "longitude" : "114.16667",
+            "latitude" : 22.25,
+            "longitude" : 114.16667,
             "time_zone" : "Asia/Hong_Kong"
          },
          "registered_country" : {
@@ -1379,8 +1533,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -1431,8 +1585,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -1483,8 +1637,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "35.68536",
-            "longitude" : "139.75309",
+            "latitude" : 35.68536,
+            "longitude" : 139.75309,
             "time_zone" : "Asia/Tokyo"
          },
          "registered_country" : {
@@ -1535,8 +1689,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -1587,8 +1741,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "31.5",
-            "longitude" : "34.75",
+            "latitude" : 31.5,
+            "longitude" : 34.75,
             "time_zone" : "Asia/Jerusalem"
          },
          "registered_country" : {
@@ -1625,6 +1779,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -1639,12 +1794,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -1691,8 +1847,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47.00016",
-            "longitude" : "8.01427",
+            "latitude" : 47.00016,
+            "longitude" : 8.01427,
             "time_zone" : "Europe/Zurich"
          },
          "registered_country" : {
@@ -1729,6 +1885,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -1743,12 +1900,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -1795,8 +1953,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "26",
-            "longitude" : "50.5",
+            "latitude" : 26,
+            "longitude" : 50.5,
             "time_zone" : "Asia/Bahrain"
          },
          "registered_country" : {
@@ -1847,8 +2005,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -1884,6 +2042,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -1898,12 +2057,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -1950,8 +2110,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -1988,6 +2148,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -2002,12 +2163,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -2040,6 +2202,7 @@
          },
          "country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -2054,12 +2217,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "42.83333",
-            "longitude" : "12.83333",
+            "latitude" : 42.83333,
+            "longitude" : 12.83333,
             "time_zone" : "Europe/Rome"
          },
          "registered_country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -2092,6 +2256,7 @@
          },
          "country" : {
             "geoname_id" : 660013,
+            "is_in_european_union" : true,
             "iso_code" : "FI",
             "names" : {
                "de" : "Finnland",
@@ -2106,12 +2271,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "64",
-            "longitude" : "26",
+            "latitude" : 64,
+            "longitude" : 26,
             "time_zone" : "Europe/Helsinki"
          },
          "registered_country" : {
             "geoname_id" : 660013,
+            "is_in_european_union" : true,
             "iso_code" : "FI",
             "names" : {
                "de" : "Finnland",
@@ -2158,8 +2324,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "53",
-            "longitude" : "28",
+            "latitude" : 53,
+            "longitude" : 28,
             "time_zone" : "Europe/Minsk"
          },
          "registered_country" : {
@@ -2196,6 +2362,7 @@
          },
          "country" : {
             "geoname_id" : 3077311,
+            "is_in_european_union" : true,
             "iso_code" : "CZ",
             "names" : {
                "de" : "Tschechische Republik",
@@ -2210,12 +2377,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "49.75",
-            "longitude" : "15",
+            "latitude" : 49.75,
+            "longitude" : 15,
             "time_zone" : "Europe/Prague"
          },
          "registered_country" : {
             "geoname_id" : 3077311,
+            "is_in_european_union" : true,
             "iso_code" : "CZ",
             "names" : {
                "de" : "Tschechische Republik",
@@ -2262,8 +2430,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "32",
-            "longitude" : "53",
+            "latitude" : 32,
+            "longitude" : 53,
             "time_zone" : "Asia/Tehran"
          },
          "registered_country" : {
@@ -2314,8 +2482,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "49",
-            "longitude" : "32"
+            "latitude" : 49,
+            "longitude" : 32
          },
          "registered_country" : {
             "geoname_id" : 690791,
@@ -2351,6 +2519,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -2365,12 +2534,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -2417,8 +2587,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "32",
-            "longitude" : "53",
+            "latitude" : 32,
+            "longitude" : 53,
             "time_zone" : "Asia/Tehran"
          },
          "registered_country" : {
@@ -2469,8 +2639,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -2507,6 +2677,7 @@
          },
          "country" : {
             "geoname_id" : 719819,
+            "is_in_european_union" : true,
             "iso_code" : "HU",
             "names" : {
                "de" : "Ungarn",
@@ -2521,12 +2692,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47",
-            "longitude" : "20",
+            "latitude" : 47,
+            "longitude" : 20,
             "time_zone" : "Europe/Budapest"
          },
          "registered_country" : {
             "geoname_id" : 719819,
+            "is_in_european_union" : true,
             "iso_code" : "HU",
             "names" : {
                "de" : "Ungarn",
@@ -2559,6 +2731,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -2573,12 +2746,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -2611,6 +2785,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -2625,12 +2800,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -2663,6 +2839,7 @@
          },
          "country" : {
             "geoname_id" : 660013,
+            "is_in_european_union" : true,
             "iso_code" : "FI",
             "names" : {
                "de" : "Finnland",
@@ -2677,12 +2854,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "64",
-            "longitude" : "26",
+            "latitude" : 64,
+            "longitude" : 26,
             "time_zone" : "Europe/Helsinki"
          },
          "registered_country" : {
             "geoname_id" : 660013,
+            "is_in_european_union" : true,
             "iso_code" : "FI",
             "names" : {
                "de" : "Finnland",
@@ -2715,6 +2893,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -2729,12 +2908,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -2767,8 +2947,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "48.69096",
-            "longitude" : "9.14062",
+            "latitude" : 48.69096,
+            "longitude" : 9.14062,
             "time_zone" : "Europe/Vaduz"
          }
       }
@@ -2805,8 +2985,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -2843,6 +3023,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -2857,12 +3038,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -2895,6 +3077,7 @@
          },
          "country" : {
             "geoname_id" : 2510769,
+            "is_in_european_union" : true,
             "iso_code" : "ES",
             "names" : {
                "de" : "Spanien",
@@ -2909,11 +3092,12 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "40",
-            "longitude" : "-4"
+            "latitude" : 40,
+            "longitude" : -4
          },
          "registered_country" : {
             "geoname_id" : 2510769,
+            "is_in_european_union" : true,
             "iso_code" : "ES",
             "names" : {
                "de" : "Spanien",
@@ -2946,6 +3130,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -2960,12 +3145,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -2998,6 +3184,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -3012,12 +3199,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -3064,8 +3252,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -3102,6 +3290,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -3116,12 +3305,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -3154,6 +3344,7 @@
          },
          "country" : {
             "geoname_id" : 732800,
+            "is_in_european_union" : true,
             "iso_code" : "BG",
             "names" : {
                "de" : "Bulgarien",
@@ -3168,12 +3359,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "43",
-            "longitude" : "25",
+            "latitude" : 43,
+            "longitude" : 25,
             "time_zone" : "Europe/Sofia"
          },
          "registered_country" : {
             "geoname_id" : 732800,
+            "is_in_european_union" : true,
             "iso_code" : "BG",
             "names" : {
                "de" : "Bulgarien",
@@ -3206,6 +3398,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -3220,12 +3413,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -3272,8 +3466,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47.00016",
-            "longitude" : "8.01427",
+            "latitude" : 47.00016,
+            "longitude" : 8.01427,
             "time_zone" : "Europe/Zurich"
          },
          "registered_country" : {
@@ -3324,8 +3518,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "32",
-            "longitude" : "53",
+            "latitude" : 32,
+            "longitude" : 53,
             "time_zone" : "Asia/Tehran"
          },
          "registered_country" : {
@@ -3362,6 +3556,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -3376,12 +3571,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -3414,6 +3610,7 @@
          },
          "country" : {
             "geoname_id" : 798549,
+            "is_in_european_union" : true,
             "iso_code" : "RO",
             "names" : {
                "de" : "Rumänien",
@@ -3428,12 +3625,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "25",
+            "latitude" : 46,
+            "longitude" : 25,
             "time_zone" : "Europe/Bucharest"
          },
          "registered_country" : {
             "geoname_id" : 798549,
+            "is_in_european_union" : true,
             "iso_code" : "RO",
             "names" : {
                "de" : "Rumänien",
@@ -3480,8 +3678,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -3531,8 +3729,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -3582,8 +3780,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -3620,6 +3818,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -3634,12 +3833,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -3672,6 +3872,7 @@
          },
          "country" : {
             "geoname_id" : 2802361,
+            "is_in_european_union" : true,
             "iso_code" : "BE",
             "names" : {
                "de" : "Belgien",
@@ -3686,12 +3887,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "50.83333",
-            "longitude" : "4",
+            "latitude" : 50.83333,
+            "longitude" : 4,
             "time_zone" : "Europe/Brussels"
          },
          "registered_country" : {
             "geoname_id" : 2802361,
+            "is_in_european_union" : true,
             "iso_code" : "BE",
             "names" : {
                "de" : "Belgien",
@@ -3738,8 +3940,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "39.05901",
-            "longitude" : "34.91155",
+            "latitude" : 39.05901,
+            "longitude" : 34.91155,
             "time_zone" : "Europe/Istanbul"
          },
          "registered_country" : {
@@ -3790,8 +3992,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "39.05901",
-            "longitude" : "34.91155",
+            "latitude" : 39.05901,
+            "longitude" : 34.91155,
             "time_zone" : "Europe/Istanbul"
          },
          "registered_country" : {
@@ -3828,6 +4030,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -3842,12 +4045,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -3894,8 +4098,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -3932,6 +4136,7 @@
          },
          "country" : {
             "geoname_id" : 2782113,
+            "is_in_european_union" : true,
             "iso_code" : "AT",
             "names" : {
                "de" : "Österreich",
@@ -3946,12 +4151,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47.33333",
-            "longitude" : "13.33333",
+            "latitude" : 47.33333,
+            "longitude" : 13.33333,
             "time_zone" : "Europe/Vienna"
          },
          "registered_country" : {
             "geoname_id" : 2782113,
+            "is_in_european_union" : true,
             "iso_code" : "AT",
             "names" : {
                "de" : "Österreich",
@@ -3998,8 +4204,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -4035,6 +4241,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -4049,12 +4256,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -4087,6 +4295,7 @@
          },
          "country" : {
             "geoname_id" : 798549,
+            "is_in_european_union" : true,
             "iso_code" : "RO",
             "names" : {
                "de" : "Rumänien",
@@ -4101,12 +4310,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "25",
+            "latitude" : 46,
+            "longitude" : 25,
             "time_zone" : "Europe/Bucharest"
          },
          "registered_country" : {
             "geoname_id" : 798549,
+            "is_in_european_union" : true,
             "iso_code" : "RO",
             "names" : {
                "de" : "Rumänien",
@@ -4153,8 +4363,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -4204,8 +4414,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -4255,8 +4465,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -4306,8 +4516,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "39.05901",
-            "longitude" : "34.91155",
+            "latitude" : 39.05901,
+            "longitude" : 34.91155,
             "time_zone" : "Europe/Istanbul"
          },
          "registered_country" : {
@@ -4358,8 +4568,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -4409,8 +4619,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "49",
-            "longitude" : "32"
+            "latitude" : 49,
+            "longitude" : 32
          },
          "registered_country" : {
             "geoname_id" : 690791,
@@ -4460,8 +4670,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "41",
-            "longitude" : "20",
+            "latitude" : 41,
+            "longitude" : 20,
             "time_zone" : "Europe/Tirane"
          },
          "registered_country" : {
@@ -4512,8 +4722,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -4550,6 +4760,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -4564,12 +4775,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -4616,8 +4828,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -4667,8 +4879,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -4718,8 +4930,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "31.5",
-            "longitude" : "34.75",
+            "latitude" : 31.5,
+            "longitude" : 34.75,
             "time_zone" : "Asia/Jerusalem"
          },
          "registered_country" : {
@@ -4770,8 +4982,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -4821,8 +5033,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "33.83333",
-            "longitude" : "35.83333",
+            "latitude" : 33.83333,
+            "longitude" : 35.83333,
             "time_zone" : "Asia/Beirut"
          },
          "registered_country" : {
@@ -4873,8 +5085,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "32",
-            "longitude" : "53",
+            "latitude" : 32,
+            "longitude" : 53,
             "time_zone" : "Asia/Tehran"
          },
          "registered_country" : {
@@ -4925,8 +5137,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "39.05901",
-            "longitude" : "34.91155",
+            "latitude" : 39.05901,
+            "longitude" : 34.91155,
             "time_zone" : "Europe/Istanbul"
          },
          "registered_country" : {
@@ -4977,8 +5189,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -5029,8 +5241,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "32",
-            "longitude" : "53",
+            "latitude" : 32,
+            "longitude" : 53,
             "time_zone" : "Asia/Tehran"
          },
          "registered_country" : {
@@ -5067,6 +5279,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -5081,12 +5294,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -5119,6 +5333,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -5133,12 +5348,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -5185,8 +5401,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "29.5",
-            "longitude" : "47.75",
+            "latitude" : 29.5,
+            "longitude" : 47.75,
             "time_zone" : "Asia/Kuwait"
          },
          "registered_country" : {
@@ -5237,8 +5453,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47.00016",
-            "longitude" : "8.01427",
+            "latitude" : 47.00016,
+            "longitude" : 8.01427,
             "time_zone" : "Europe/Zurich"
          },
          "registered_country" : {
@@ -5289,8 +5505,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -5327,6 +5543,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -5341,12 +5558,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -5393,8 +5611,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -5431,6 +5649,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -5445,12 +5664,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -5483,6 +5703,7 @@
          },
          "country" : {
             "geoname_id" : 2782113,
+            "is_in_european_union" : true,
             "iso_code" : "AT",
             "names" : {
                "de" : "Österreich",
@@ -5497,12 +5718,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47.33333",
-            "longitude" : "13.33333",
+            "latitude" : 47.33333,
+            "longitude" : 13.33333,
             "time_zone" : "Europe/Vienna"
          },
          "registered_country" : {
             "geoname_id" : 2782113,
+            "is_in_european_union" : true,
             "iso_code" : "AT",
             "names" : {
                "de" : "Österreich",
@@ -5549,8 +5771,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "25",
-            "longitude" : "45",
+            "latitude" : 25,
+            "longitude" : 45,
             "time_zone" : "Asia/Riyadh"
          },
          "registered_country" : {
@@ -5587,6 +5809,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -5601,12 +5824,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -5639,6 +5863,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -5653,12 +5878,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -5691,6 +5917,7 @@
          },
          "country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -5705,12 +5932,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "42.83333",
-            "longitude" : "12.83333",
+            "latitude" : 42.83333,
+            "longitude" : 12.83333,
             "time_zone" : "Europe/Rome"
          },
          "registered_country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -5757,8 +5985,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "53",
-            "longitude" : "28",
+            "latitude" : 53,
+            "longitude" : 28,
             "time_zone" : "Europe/Minsk"
          },
          "registered_country" : {
@@ -5809,8 +6037,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -5847,6 +6075,7 @@
          },
          "country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -5861,12 +6090,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "42.83333",
-            "longitude" : "12.83333",
+            "latitude" : 42.83333,
+            "longitude" : 12.83333,
             "time_zone" : "Europe/Rome"
          },
          "registered_country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -5899,6 +6129,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -5913,12 +6144,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -5951,6 +6183,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -5965,12 +6198,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -6003,6 +6237,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -6017,12 +6252,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -6069,8 +6305,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -6106,6 +6342,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -6120,12 +6357,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -6158,6 +6396,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -6172,12 +6411,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -6224,8 +6464,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "44.81892",
-            "longitude" : "20.45998",
+            "latitude" : 44.81892,
+            "longitude" : 20.45998,
             "time_zone" : "Europe/Belgrade"
          },
          "registered_country" : {
@@ -6276,8 +6516,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -6328,8 +6568,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -6365,6 +6605,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -6379,12 +6620,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -6431,8 +6673,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -6468,6 +6710,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -6482,12 +6725,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -6534,8 +6778,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "31",
-            "longitude" : "36",
+            "latitude" : 31,
+            "longitude" : 36,
             "time_zone" : "Asia/Amman"
          },
          "registered_country" : {
@@ -6586,8 +6830,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -6637,8 +6881,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "28",
-            "longitude" : "17",
+            "latitude" : 28,
+            "longitude" : 17,
             "time_zone" : "Africa/Tripoli"
          },
          "registered_country" : {
@@ -6675,6 +6919,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -6689,12 +6934,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -6741,8 +6987,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "39.05901",
-            "longitude" : "34.91155",
+            "latitude" : 39.05901,
+            "longitude" : 34.91155,
             "time_zone" : "Europe/Istanbul"
          },
          "registered_country" : {
@@ -6779,6 +7025,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -6793,12 +7040,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -6831,6 +7079,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -6845,12 +7094,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -6897,8 +7147,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -6948,8 +7198,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -6985,6 +7235,7 @@
          },
          "country" : {
             "geoname_id" : 2963597,
+            "is_in_european_union" : true,
             "iso_code" : "IE",
             "names" : {
                "de" : "Irland",
@@ -6999,12 +7250,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "53",
-            "longitude" : "-8",
+            "latitude" : 53,
+            "longitude" : -8,
             "time_zone" : "Europe/Dublin"
          },
          "registered_country" : {
             "geoname_id" : 2963597,
+            "is_in_european_union" : true,
             "iso_code" : "IE",
             "names" : {
                "de" : "Irland",
@@ -7037,6 +7289,7 @@
          },
          "country" : {
             "geoname_id" : 798549,
+            "is_in_european_union" : true,
             "iso_code" : "RO",
             "names" : {
                "de" : "Rumänien",
@@ -7051,12 +7304,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "25",
+            "latitude" : 46,
+            "longitude" : 25,
             "time_zone" : "Europe/Bucharest"
          },
          "registered_country" : {
             "geoname_id" : 798549,
+            "is_in_european_union" : true,
             "iso_code" : "RO",
             "names" : {
                "de" : "Rumänien",
@@ -7103,8 +7357,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "31.5",
-            "longitude" : "34.75",
+            "latitude" : 31.5,
+            "longitude" : 34.75,
             "time_zone" : "Asia/Jerusalem"
          },
          "registered_country" : {
@@ -7141,6 +7395,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -7155,12 +7410,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -7207,8 +7463,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47.00016",
-            "longitude" : "8.01427",
+            "latitude" : 47.00016,
+            "longitude" : 8.01427,
             "time_zone" : "Europe/Zurich"
          },
          "registered_country" : {
@@ -7259,8 +7515,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -7297,6 +7553,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -7311,12 +7568,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -7349,6 +7607,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -7363,12 +7622,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -7415,8 +7675,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -7466,8 +7726,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -7518,8 +7778,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -7555,6 +7815,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -7569,12 +7830,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -7607,6 +7869,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -7621,12 +7884,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -7673,8 +7937,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -7710,8 +7974,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "48.69096",
-            "longitude" : "9.14062",
+            "latitude" : 48.69096,
+            "longitude" : 9.14062,
             "time_zone" : "Europe/Vaduz"
          }
       }
@@ -7748,8 +8012,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "40.5",
-            "longitude" : "47.5",
+            "latitude" : 40.5,
+            "longitude" : 47.5,
             "time_zone" : "Asia/Baku"
          },
          "registered_country" : {
@@ -7800,8 +8064,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -7852,8 +8116,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "39.05901",
-            "longitude" : "34.91155",
+            "latitude" : 39.05901,
+            "longitude" : 34.91155,
             "time_zone" : "Europe/Istanbul"
          },
          "registered_country" : {
@@ -7890,6 +8154,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -7904,12 +8169,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -7956,8 +8222,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "25",
-            "longitude" : "45",
+            "latitude" : 25,
+            "longitude" : 45,
             "time_zone" : "Asia/Riyadh"
          },
          "registered_country" : {
@@ -8008,8 +8274,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "49",
-            "longitude" : "32"
+            "latitude" : 49,
+            "longitude" : 32
          },
          "registered_country" : {
             "geoname_id" : 690791,
@@ -8059,8 +8325,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -8096,6 +8362,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -8110,12 +8377,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -8148,6 +8416,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -8162,12 +8431,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -8214,8 +8484,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -8265,8 +8535,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -8316,8 +8586,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "39.05901",
-            "longitude" : "34.91155",
+            "latitude" : 39.05901,
+            "longitude" : 34.91155,
             "time_zone" : "Europe/Istanbul"
          },
          "registered_country" : {
@@ -8368,8 +8638,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -8405,6 +8675,7 @@
          },
          "country" : {
             "geoname_id" : 3077311,
+            "is_in_european_union" : true,
             "iso_code" : "CZ",
             "names" : {
                "de" : "Tschechische Republik",
@@ -8419,12 +8690,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "49.75",
-            "longitude" : "15",
+            "latitude" : 49.75,
+            "longitude" : 15,
             "time_zone" : "Europe/Prague"
          },
          "registered_country" : {
             "geoname_id" : 3077311,
+            "is_in_european_union" : true,
             "iso_code" : "CZ",
             "names" : {
                "de" : "Tschechische Republik",
@@ -8471,8 +8743,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "26",
-            "longitude" : "50.5",
+            "latitude" : 26,
+            "longitude" : 50.5,
             "time_zone" : "Asia/Bahrain"
          },
          "registered_country" : {
@@ -8523,8 +8795,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "49",
-            "longitude" : "32"
+            "latitude" : 49,
+            "longitude" : 32
          },
          "registered_country" : {
             "geoname_id" : 690791,
@@ -8574,8 +8846,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -8626,8 +8898,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "31",
-            "longitude" : "36",
+            "latitude" : 31,
+            "longitude" : 36,
             "time_zone" : "Asia/Amman"
          },
          "registered_country" : {
@@ -8678,8 +8950,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -8716,6 +8988,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -8730,12 +9003,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -8768,6 +9042,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -8782,12 +9057,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -8834,8 +9110,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "49",
-            "longitude" : "32"
+            "latitude" : 49,
+            "longitude" : 32
          },
          "registered_country" : {
             "geoname_id" : 690791,
@@ -8871,6 +9147,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -8885,12 +9162,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -8937,8 +9215,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "32",
-            "longitude" : "53",
+            "latitude" : 32,
+            "longitude" : 53,
             "time_zone" : "Asia/Tehran"
          },
          "registered_country" : {
@@ -8975,6 +9253,7 @@
          },
          "country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -8989,12 +9268,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "46",
-            "longitude" : "2",
+            "latitude" : 46,
+            "longitude" : 2,
             "time_zone" : "Europe/Paris"
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -9041,8 +9321,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -9092,8 +9372,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -9130,6 +9410,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -9144,12 +9425,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -9196,8 +9478,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -9234,6 +9516,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -9248,12 +9531,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -9300,8 +9584,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "24",
-            "longitude" : "54",
+            "latitude" : 24,
+            "longitude" : 54,
             "time_zone" : "Asia/Dubai"
          },
          "registered_country" : {
@@ -9352,8 +9636,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -9404,8 +9688,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -9442,6 +9726,7 @@
          },
          "country" : {
             "geoname_id" : 2510769,
+            "is_in_european_union" : true,
             "iso_code" : "ES",
             "names" : {
                "de" : "Spanien",
@@ -9456,11 +9741,12 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "40",
-            "longitude" : "-4"
+            "latitude" : 40,
+            "longitude" : -4
          },
          "registered_country" : {
             "geoname_id" : 2510769,
+            "is_in_european_union" : true,
             "iso_code" : "ES",
             "names" : {
                "de" : "Spanien",
@@ -9507,8 +9793,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -9558,8 +9844,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -9610,8 +9896,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -9661,8 +9947,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "40",
-            "longitude" : "45",
+            "latitude" : 40,
+            "longitude" : 45,
             "time_zone" : "Asia/Yerevan"
          },
          "registered_country" : {
@@ -9699,6 +9985,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -9713,12 +10000,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -9751,6 +10039,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -9765,12 +10054,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -9803,6 +10093,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -9817,12 +10108,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -9869,8 +10161,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -9920,8 +10212,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -9971,8 +10263,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "33.83333",
-            "longitude" : "35.83333",
+            "latitude" : 33.83333,
+            "longitude" : 35.83333,
             "time_zone" : "Asia/Beirut"
          },
          "registered_country" : {
@@ -10009,6 +10301,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10023,12 +10316,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10061,6 +10355,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -10075,12 +10370,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -10113,6 +10409,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10127,12 +10424,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10179,8 +10477,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "60",
-            "longitude" : "100"
+            "latitude" : 60,
+            "longitude" : 100
          },
          "registered_country" : {
             "geoname_id" : 2017370,
@@ -10216,6 +10514,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -10230,12 +10529,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -10268,6 +10568,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -10282,12 +10583,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -10320,6 +10622,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10334,12 +10637,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10386,8 +10690,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "32",
-            "longitude" : "53",
+            "latitude" : 32,
+            "longitude" : 53,
             "time_zone" : "Asia/Tehran"
          },
          "registered_country" : {
@@ -10424,6 +10728,7 @@
          },
          "country" : {
             "geoname_id" : 719819,
+            "is_in_european_union" : true,
             "iso_code" : "HU",
             "names" : {
                "de" : "Ungarn",
@@ -10438,12 +10743,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47",
-            "longitude" : "20",
+            "latitude" : 47,
+            "longitude" : 20,
             "time_zone" : "Europe/Budapest"
          },
          "registered_country" : {
             "geoname_id" : 719819,
+            "is_in_european_union" : true,
             "iso_code" : "HU",
             "names" : {
                "de" : "Ungarn",
@@ -10490,8 +10796,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -10542,8 +10848,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -10594,8 +10900,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "25",
-            "longitude" : "45",
+            "latitude" : 25,
+            "longitude" : 45,
             "time_zone" : "Asia/Riyadh"
          },
          "registered_country" : {
@@ -10646,8 +10952,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "39.05901",
-            "longitude" : "34.91155",
+            "latitude" : 39.05901,
+            "longitude" : 34.91155,
             "time_zone" : "Europe/Istanbul"
          },
          "registered_country" : {
@@ -10684,6 +10990,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -10698,12 +11005,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -10736,6 +11044,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10750,12 +11059,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10788,6 +11098,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -10802,12 +11113,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -10854,8 +11166,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -10892,6 +11204,7 @@
          },
          "country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -10906,12 +11219,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "42.83333",
-            "longitude" : "12.83333",
+            "latitude" : 42.83333,
+            "longitude" : 12.83333,
             "time_zone" : "Europe/Rome"
          },
          "registered_country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -10944,6 +11258,7 @@
          },
          "country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10958,12 +11273,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52",
-            "longitude" : "20",
+            "latitude" : 52,
+            "longitude" : 20,
             "time_zone" : "Europe/Warsaw"
          },
          "registered_country" : {
             "geoname_id" : 798544,
+            "is_in_european_union" : true,
             "iso_code" : "PL",
             "names" : {
                "de" : "Polen",
@@ -10996,6 +11312,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -11010,12 +11327,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "15",
+            "latitude" : 62,
+            "longitude" : 15,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -11048,6 +11366,7 @@
          },
          "country" : {
             "geoname_id" : 2623032,
+            "is_in_european_union" : true,
             "iso_code" : "DK",
             "names" : {
                "de" : "Dänemark",
@@ -11062,12 +11381,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "56",
-            "longitude" : "10",
+            "latitude" : 56,
+            "longitude" : 10,
             "time_zone" : "Europe/Copenhagen"
          },
          "registered_country" : {
             "geoname_id" : 2623032,
+            "is_in_european_union" : true,
             "iso_code" : "DK",
             "names" : {
                "de" : "Dänemark",
@@ -11114,8 +11434,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "62",
-            "longitude" : "10",
+            "latitude" : 62,
+            "longitude" : 10,
             "time_zone" : "Europe/Oslo"
          },
          "registered_country" : {
@@ -11166,8 +11486,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -11204,6 +11524,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -11218,12 +11539,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -11256,6 +11578,7 @@
          },
          "country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -11270,12 +11593,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "42.83333",
-            "longitude" : "12.83333",
+            "latitude" : 42.83333,
+            "longitude" : 12.83333,
             "time_zone" : "Europe/Rome"
          },
          "registered_country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -11308,6 +11632,7 @@
          },
          "country" : {
             "geoname_id" : 2623032,
+            "is_in_european_union" : true,
             "iso_code" : "DK",
             "names" : {
                "de" : "Dänemark",
@@ -11322,12 +11647,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "56",
-            "longitude" : "10",
+            "latitude" : 56,
+            "longitude" : 10,
             "time_zone" : "Europe/Copenhagen"
          },
          "registered_country" : {
             "geoname_id" : 2623032,
+            "is_in_european_union" : true,
             "iso_code" : "DK",
             "names" : {
                "de" : "Dänemark",
@@ -11360,6 +11686,7 @@
          },
          "country" : {
             "geoname_id" : 2782113,
+            "is_in_european_union" : true,
             "iso_code" : "AT",
             "names" : {
                "de" : "Österreich",
@@ -11374,12 +11701,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "47.33333",
-            "longitude" : "13.33333",
+            "latitude" : 47.33333,
+            "longitude" : 13.33333,
             "time_zone" : "Europe/Vienna"
          },
          "registered_country" : {
             "geoname_id" : 2782113,
+            "is_in_european_union" : true,
             "iso_code" : "AT",
             "names" : {
                "de" : "Österreich",
@@ -11412,6 +11740,7 @@
          },
          "country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -11426,12 +11755,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "52.5",
-            "longitude" : "5.75",
+            "latitude" : 52.5,
+            "longitude" : 5.75,
             "time_zone" : "Europe/Amsterdam"
          },
          "registered_country" : {
             "geoname_id" : 2750405,
+            "is_in_european_union" : true,
             "iso_code" : "NL",
             "names" : {
                "de" : "Niederlande",
@@ -11478,8 +11808,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -11516,6 +11846,7 @@
          },
          "country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -11530,12 +11861,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "42.83333",
-            "longitude" : "12.83333",
+            "latitude" : 42.83333,
+            "longitude" : 12.83333,
             "time_zone" : "Europe/Rome"
          },
          "registered_country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -11582,8 +11914,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.75844",
-            "longitude" : "-2.69531",
+            "latitude" : 54.75844,
+            "longitude" : -2.69531,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -11620,6 +11952,7 @@
          },
          "country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -11634,12 +11967,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "42.83333",
-            "longitude" : "12.83333",
+            "latitude" : 42.83333,
+            "longitude" : 12.83333,
             "time_zone" : "Europe/Rome"
          },
          "registered_country" : {
             "geoname_id" : 3175395,
+            "is_in_european_union" : true,
             "iso_code" : "IT",
             "names" : {
                "de" : "Italien",
@@ -11686,8 +12020,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "54.25",
-            "longitude" : "-4.5",
+            "latitude" : 54.25,
+            "longitude" : -4.5,
             "time_zone" : "Europe/Isle_of_Man"
          },
          "registered_country" : {
@@ -11724,6 +12058,7 @@
          },
          "country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -11738,12 +12073,13 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5",
-            "longitude" : "10.5",
+            "latitude" : 51.5,
+            "longitude" : 10.5,
             "time_zone" : "Europe/Berlin"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -11789,8 +12125,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "36.13333",
-            "longitude" : "-5.35",
+            "latitude" : 36.13333,
+            "longitude" : -5.35,
             "time_zone" : "Europe/Gibraltar"
          },
          "registered_country" : {
@@ -11809,9 +12145,9 @@
       }
    },
    {
-      "::2.125.160.216/125" : {
+      "::2.2.3.0/120" : {
          "city" : {
-            "geoname_id" : "2655045",
+            "geoname_id" : 2655045,
             "names" : {
                "en" : "Boxford"
             }
@@ -11846,8 +12182,105 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.7500",
-            "longitude" : "-1.2500",
+            "latitude" : 51.75,
+            "longitude" : -1.25,
+            "time_zone" : "Europe/London"
+         },
+         "registered_country" : {
+            "geoname_id" : 2635167,
+            "iso_code" : "GB",
+            "names" : {
+               "de" : "Vereinigtes Königreich",
+               "en" : "United Kingdom",
+               "es" : "Reino Unido",
+               "fr" : "Royaume-Uni",
+               "ja" : "イギリス",
+               "pt-BR" : "Reino Unido",
+               "ru" : "Великобритания",
+               "zh-CN" : "英国"
+            }
+         },
+         "subdivisions" : [
+            {
+               "geoname_id" : 6269131,
+               "iso_code" : "ENG",
+               "names" : {
+                  "en" : "England",
+                  "es" : "Inglaterra",
+                  "fr" : "Angleterre",
+                  "pt-BR" : "Inglaterra"
+               }
+            },
+            {
+               "geoname_id" : 3333217,
+               "iso_code" : "WBK",
+               "names" : {
+                  "en" : "West Berkshire",
+                  "ru" : "Западный Беркшир",
+                  "zh-CN" : "西伯克郡"
+               }
+            }
+         ]
+      }
+   },
+   {
+      "::2.3.3.0/120" : {
+         "continent" : {
+            "code" : "EU",
+            "geoname_id" : 6255148,
+            "names" : {
+               "de" : "Europa",
+               "en" : "Europe",
+               "es" : "Europa",
+               "fr" : "Europe",
+               "ja" : "ヨーロッパ",
+               "pt-BR" : "Europa",
+               "ru" : "Европа",
+               "zh-CN" : "欧洲"
+            }
+         }
+      }
+   },
+   {
+      "::2.125.160.216/125" : {
+         "city" : {
+            "geoname_id" : 2655045,
+            "names" : {
+               "en" : "Boxford"
+            }
+         },
+         "continent" : {
+            "code" : "EU",
+            "geoname_id" : 6255148,
+            "names" : {
+               "de" : "Europa",
+               "en" : "Europe",
+               "es" : "Europa",
+               "fr" : "Europe",
+               "ja" : "ヨーロッパ",
+               "pt-BR" : "Europa",
+               "ru" : "Европа",
+               "zh-CN" : "欧洲"
+            }
+         },
+         "country" : {
+            "geoname_id" : 2635167,
+            "iso_code" : "GB",
+            "names" : {
+               "de" : "Vereinigtes Königreich",
+               "en" : "United Kingdom",
+               "es" : "Reino Unido",
+               "fr" : "Royaume-Uni",
+               "ja" : "イギリス",
+               "pt-BR" : "Reino Unido",
+               "ru" : "Великобритания",
+               "zh-CN" : "英国"
+            }
+         },
+         "location" : {
+            "accuracy_radius" : 100,
+            "latitude" : 51.75,
+            "longitude" : -1.25,
             "time_zone" : "Europe/London"
          },
          "postal" : {
@@ -11855,6 +12288,7 @@
          },
          "registered_country" : {
             "geoname_id" : 3017382,
+            "is_in_european_union" : true,
             "iso_code" : "FR",
             "names" : {
                "de" : "Frankreich",
@@ -11893,7 +12327,7 @@
    {
       "::81.2.69.142/127" : {
          "city" : {
-            "geoname_id" : "2643743",
+            "geoname_id" : 2643743,
             "names" : {
                "de" : "London",
                "en" : "London",
@@ -11934,8 +12368,8 @@
          },
          "location" : {
             "accuracy_radius" : 10,
-            "latitude" : "51.5142",
-            "longitude" : "-0.0931",
+            "latitude" : 51.5142,
+            "longitude" : -0.0931,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -11969,7 +12403,7 @@
    {
       "::81.2.69.144/124" : {
          "city" : {
-            "geoname_id" : "2643743",
+            "geoname_id" : 2643743,
             "names" : {
                "de" : "London",
                "en" : "London",
@@ -12010,8 +12444,8 @@
          },
          "location" : {
             "accuracy_radius" : 3,
-            "latitude" : "51.5142",
-            "longitude" : "-0.0931",
+            "latitude" : 51.5142,
+            "longitude" : -0.0931,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -12045,7 +12479,7 @@
    {
       "::81.2.69.160/123" : {
          "city" : {
-            "geoname_id" : "2643743",
+            "geoname_id" : 2643743,
             "names" : {
                "de" : "London",
                "en" : "London",
@@ -12086,8 +12520,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5142",
-            "longitude" : "-0.0931",
+            "latitude" : 51.5142,
+            "longitude" : -0.0931,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -12121,7 +12555,7 @@
    {
       "::81.2.69.192/124" : {
          "city" : {
-            "geoname_id" : "2643743",
+            "geoname_id" : 2643743,
             "names" : {
                "de" : "London",
                "en" : "London",
@@ -12162,8 +12596,8 @@
          },
          "location" : {
             "accuracy_radius" : 100,
-            "latitude" : "51.5142",
-            "longitude" : "-0.0931",
+            "latitude" : 51.5142,
+            "longitude" : -0.0931,
             "time_zone" : "Europe/London"
          },
          "registered_country" : {
@@ -12195,9 +12629,61 @@
       }
    },
    {
+      "::149.101.100.0/124" : {
+         "continent" : {
+            "code" : "NA",
+            "geoname_id" : 6255149,
+            "names" : {
+               "de" : "Nordamerika",
+               "en" : "North America",
+               "es" : "América del Norte",
+               "fr" : "Amérique du Nord",
+               "ja" : "北アメリカ",
+               "pt-BR" : "América do Norte",
+               "ru" : "Северная Америка",
+               "zh-CN" : "北美洲"
+            }
+         },
+         "country" : {
+            "geoname_id" : 6252001,
+            "iso_code" : "US",
+            "names" : {
+               "de" : "USA",
+               "en" : "United States",
+               "es" : "Estados Unidos",
+               "fr" : "États-Unis",
+               "ja" : "アメリカ合衆国",
+               "pt-BR" : "Estados Unidos",
+               "ru" : "США",
+               "zh-CN" : "美国"
+            }
+         },
+         "location" : {
+            "accuracy_radius" : 1000,
+            "latitude" : 37.751,
+            "longitude" : -97.822,
+            "time_zone" : "America/Chicago"
+         },
+         "registered_country" : {
+            "geoname_id" : 2635167,
+            "iso_code" : "GB",
+            "names" : {
+               "de" : "Vereinigtes Königreich",
+               "en" : "United Kingdom",
+               "es" : "Reino Unido",
+               "fr" : "Royaume-Uni",
+               "ja" : "イギリス",
+               "pt-BR" : "Reino Unido",
+               "ru" : "Великобритания",
+               "zh-CN" : "英国"
+            }
+         }
+      }
+   },
+   {
       "::216.160.83.56/125" : {
          "city" : {
-            "geoname_id" : "5803556",
+            "geoname_id" : 5803556,
             "names" : {
                "en" : "Milton",
                "ru" : "Мильтон"
@@ -12233,9 +12719,9 @@
          },
          "location" : {
             "accuracy_radius" : 22,
-            "latitude" : "47.2513",
-            "longitude" : "-122.3149",
-            "metro_code" : "819",
+            "latitude" : 47.2513,
+            "longitude" : -122.3149,
+            "metro_code" : 819,
             "time_zone" : "America/Los_Angeles"
          },
          "postal" : {
@@ -12274,7 +12760,7 @@
    {
       "::89.160.20.112/124" : {
          "city" : {
-            "geoname_id" : "2694762",
+            "geoname_id" : 2694762,
             "names" : {
                "de" : "Linköping",
                "en" : "Linköping",
@@ -12299,6 +12785,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -12313,12 +12800,13 @@
          },
          "location" : {
             "accuracy_radius" : 76,
-            "latitude" : "58.4167",
-            "longitude" : "15.6167",
+            "latitude" : 58.4167,
+            "longitude" : 15.6167,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -12346,7 +12834,7 @@
    {
       "::89.160.20.128/121" : {
          "city" : {
-            "geoname_id" : "2694762",
+            "geoname_id" : 2694762,
             "names" : {
                "de" : "Linköping",
                "en" : "Linköping",
@@ -12371,6 +12859,7 @@
          },
          "country" : {
             "geoname_id" : 2661886,
+            "is_in_european_union" : true,
             "iso_code" : "SE",
             "names" : {
                "de" : "Schweden",
@@ -12385,12 +12874,13 @@
          },
          "location" : {
             "accuracy_radius" : 76,
-            "latitude" : "58.4167",
-            "longitude" : "15.6167",
+            "latitude" : 58.4167,
+            "longitude" : 15.6167,
             "time_zone" : "Europe/Stockholm"
          },
          "registered_country" : {
             "geoname_id" : 2921044,
+            "is_in_european_union" : true,
             "iso_code" : "DE",
             "names" : {
                "de" : "Deutschland",
@@ -12447,12 +12937,13 @@
          },
          "location" : {
             "accuracy_radius" : 534,
-            "latitude" : "27.5000",
-            "longitude" : "90.5000",
+            "latitude" : 27.5,
+            "longitude" : 90.5,
             "time_zone" : "Asia/Thimphu"
          },
          "registered_country" : {
             "geoname_id" : 798549,
+            "is_in_european_union" : true,
             "iso_code" : "RO",
             "names" : {
                "de" : "Rumänien",
@@ -12466,7 +12957,7 @@
             }
          },
          "traits" : {
-            "is_anonymous_proxy" : 1
+            "is_anonymous_proxy" : true
          }
       }
    },
@@ -12502,8 +12993,8 @@
          },
          "location" : {
             "accuracy_radius" : 121,
-            "latitude" : "13",
-            "longitude" : "122",
+            "latitude" : 13,
+            "longitude" : 122,
             "time_zone" : "Asia/Manila"
          },
          "postal" : {
@@ -12608,6 +13099,174 @@
                "names" : {
                   "en" : "Jilin Sheng",
                   "zh-CN" : "吉林"
+               }
+            }
+         ]
+      }
+   },
+   {
+      "214.78.120.0/22" : {
+         "city" : {
+            "geoname_id" : 5391811,
+            "names" : {
+               "de" : "San Diego",
+               "en" : "San Diego",
+               "es" : "San Diego",
+               "fr" : "San Diego",
+               "ja" : "サンディエゴ",
+               "pt-BR" : "San Diego",
+               "ru" : "Сан-Диего"
+            }
+         },
+         "continent" : {
+            "code" : "NA",
+            "geoname_id" : 6255149,
+            "names" : {
+               "de" : "Nordamerika",
+               "en" : "North America",
+               "es" : "Norteamérica",
+               "fr" : "Amérique du Nord",
+               "ja" : "北アメリカ",
+               "pt-BR" : "América do Norte",
+               "ru" : "Северная Америка",
+               "zh-CN" : "北美洲"
+            }
+         },
+         "country" : {
+            "geoname_id" : 6252001,
+            "iso_code" : "US",
+            "names" : {
+               "de" : "Vereinigte Staaten",
+               "en" : "United States",
+               "es" : "Estados Unidos",
+               "fr" : "États Unis",
+               "ja" : "アメリカ",
+               "pt-BR" : "EUA",
+               "ru" : "США",
+               "zh-CN" : "美国"
+            }
+         },
+         "location" : {
+            "accuracy_radius" : 100,
+            "latitude" : 32.7405,
+            "longitude" : -117.0935,
+            "metro_code" : 825,
+            "time_zone" : "America/Los_Angeles"
+         },
+         "postal" : {
+            "code" : "92105"
+         },
+         "registered_country" : {
+            "geoname_id" : 6252001,
+            "iso_code" : "US",
+            "names" : {
+               "de" : "Vereinigte Staaten",
+               "en" : "United States",
+               "es" : "Estados Unidos",
+               "fr" : "États Unis",
+               "ja" : "アメリカ",
+               "pt-BR" : "EUA",
+               "ru" : "США",
+               "zh-CN" : "美国"
+            }
+         },
+         "subdivisions" : [
+            {
+               "geoname_id" : 5332921,
+               "iso_code" : "CA",
+               "names" : {
+                  "de" : "Kalifornien",
+                  "en" : "California",
+                  "es" : "California",
+                  "fr" : "Californie",
+                  "ja" : "カリフォルニア州",
+                  "pt-BR" : "Califórnia",
+                  "ru" : "Калифорния",
+                  "zh-CN" : "加州"
+               }
+            }
+         ]
+      }
+   },
+   {
+      "2001:480:10::/48" : {
+         "city" : {
+            "geoname_id" : 5391811,
+            "names" : {
+               "de" : "San Diego",
+               "en" : "San Diego",
+               "es" : "San Diego",
+               "fr" : "San Diego",
+               "ja" : "サンディエゴ",
+               "pt-BR" : "San Diego",
+               "ru" : "Сан-Диего"
+            }
+         },
+         "continent" : {
+            "code" : "NA",
+            "geoname_id" : 6255149,
+            "names" : {
+               "de" : "Nordamerika",
+               "en" : "North America",
+               "es" : "Norteamérica",
+               "fr" : "Amérique du Nord",
+               "ja" : "北アメリカ",
+               "pt-BR" : "América do Norte",
+               "ru" : "Северная Америка",
+               "zh-CN" : "北美洲"
+            }
+         },
+         "country" : {
+            "geoname_id" : 6252001,
+            "iso_code" : "US",
+            "names" : {
+               "de" : "Vereinigte Staaten",
+               "en" : "United States",
+               "es" : "Estados Unidos",
+               "fr" : "États Unis",
+               "ja" : "アメリカ",
+               "pt-BR" : "EUA",
+               "ru" : "США",
+               "zh-CN" : "美国"
+            }
+         },
+         "location" : {
+            "accuracy_radius" : 20,
+            "latitude" : 32.7203,
+            "longitude" : -117.1552,
+            "metro_code" : 825,
+            "time_zone" : "America/Los_Angeles"
+         },
+         "postal" : {
+            "code" : "92101"
+         },
+         "registered_country" : {
+            "geoname_id" : 6252001,
+            "iso_code" : "US",
+            "names" : {
+               "de" : "Vereinigte Staaten",
+               "en" : "United States",
+               "es" : "Estados Unidos",
+               "fr" : "États Unis",
+               "ja" : "アメリカ",
+               "pt-BR" : "EUA",
+               "ru" : "США",
+               "zh-CN" : "美国"
+            }
+         },
+         "subdivisions" : [
+            {
+               "geoname_id" : 5332921,
+               "iso_code" : "CA",
+               "names" : {
+                  "de" : "Kalifornien",
+                  "en" : "California",
+                  "es" : "California",
+                  "fr" : "Californie",
+                  "ja" : "カリフォルニア州",
+                  "pt-BR" : "Califórnia",
+                  "ru" : "Калифорния",
+                  "zh-CN" : "加州"
                }
             }
          ]

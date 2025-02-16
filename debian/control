@@ -2,7 +2,6 @@ Source: libmaxminddb
 Section: net
 Priority: optional
 Maintainer: Faidon Liambotis <paravoid@debian.org>
-Uploaders: Sergio Durigan Junior <sergiodj@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
  perl <!nodoc !nocheck>,
@@ -10,10 +9,9 @@ Build-Depends:
  libtest-output-perl <!nocheck>,
 # for dev-bin/make-man-pages.pl
  lowdown <!nodoc> | pandoc <!nodoc>,
- libipc-system-simple-perl <!nodoc>,
  libfile-slurp-perl <!nodoc>,
  libfile-which-perl <!nodoc>,
-Standards-Version: 4.6.1
+Standards-Version: 4.7.0
 Homepage: https://maxmind.github.io/libmaxminddb/
 Vcs-Browser: https://salsa.debian.org/debian/libmaxminddb
 Vcs-Git: https://salsa.debian.org/debian/libmaxminddb.git
@@ -32,15 +30,13 @@ Description: IP geolocation database library
  flexibility in the type of data associated with an address.
  .
  The MaxMind DB format is an open format. The spec is available at
- http://maxmind.github.io/MaxMind-DB/. This spec is licensed under the Creative
+ https://maxmind.github.io/MaxMind-DB/. This spec is licensed under the Creative
  Commons Attribution-ShareAlike 3.0 Unported License.
 
 Package: libmaxminddb-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Breaks: libmaxminddb0 (<< 1.4.3-2)
-Replaces: libmaxminddb0 (<< 1.4.3-2)
 Depends: libmaxminddb0 (= ${binary:Version}), ${misc:Depends}
 Description: IP geolocation database library (development headers)
  The libmaxminddb library provides a C library for reading MaxMind DB files,
@@ -49,7 +45,7 @@ Description: IP geolocation database library (development headers)
  flexibility in the type of data associated with an address.
  .
  The MaxMind DB format is an open format. The spec is available at
- http://maxmind.github.io/MaxMind-DB/. This spec is licensed under the Creative
+ https://maxmind.github.io/MaxMind-DB/. This spec is licensed under the Creative
  Commons Attribution-ShareAlike 3.0 Unported License.
  .
  This package contains the development files for the libmaxminddb library.
@@ -65,7 +61,7 @@ Description: IP geolocation lookup command-line tool
  flexibility in the type of data associated with an address.
  .
  The MaxMind DB format is an open format. The spec is available at
- http://maxmind.github.io/MaxMind-DB/. This spec is licensed under the Creative
+ https://maxmind.github.io/MaxMind-DB/. This spec is licensed under the Creative
  Commons Attribution-ShareAlike 3.0 Unported License.
  .
  This package contains the command line utilities to resolve IPs using the
