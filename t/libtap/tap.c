@@ -12,6 +12,21 @@ This file is licensed under the LGPL
 #include <string.h>
 #include "tap.h"
 
+#ifndef _WIN32
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <sys/param.h>
+#include <regex.h>
+
+#ifndef MAP_ANONYMOUS
+#ifdef MAP_ANON
+#define MAP_ANONYMOUS MAP_ANON
+#else
+#error "System does not support mapping anonymous pages"
+#endif
+#endif
+#endif
+
 static int expected_tests = NO_PLAN;
 static int failed_tests;
 static int current_test;
@@ -198,8 +213,8 @@ cmp_mem_at_loc (const char *file, int line, const void *got,
     va_end(args);
     if (diff == 1) {
         diag("    Difference starts at offset %d", offset);
-        diag("         got: 0x%02x", ((unsigned char *)got)[offset]);
-        diag("    expected: 0x%02x", ((unsigned char *)expected)[offset]);
+        diag("         got: 0x%02x", ((const unsigned char *)got)[offset]);
+        diag("    expected: 0x%02x", ((const unsigned char *)expected)[offset]);
     }
     else if (diff == 2) {
         diag("         got: %s", got ? "not NULL" : "NULL");
@@ -298,18 +313,6 @@ tap_end_todo () {
 }
 
 #ifndef _WIN32
-#include <sys/mman.h>
-#include <sys/param.h>
-#include <regex.h>
-
-#ifndef MAP_ANONYMOUS
-#ifdef MAP_ANON
-#define MAP_ANONYMOUS MAP_ANON
-#else
-#error "System does not support mapping anonymous pages"
-#endif
-#endif
-
 /* Create a shared memory int to keep track of whether a piece of code executed
 dies. to be used in the dies_ok and lives_ok macros.  */
 int

@@ -16,9 +16,10 @@ jobs:
       CXXFLAGS: -fsanitize=address
       LDFLAGS: -fsanitize=address
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: true
+          persist-credentials: false
       - run: sudo apt install clang libipc-run3-perl
       - run: ./bootstrap
       - run: ./configure
